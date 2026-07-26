@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Invite Friends",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Generate and share referral link"
+            }
+          }
+        ],
+        "send": {
+          "callback": "referrals:share"
+        }
+      }
+    ]
+  }
+]
