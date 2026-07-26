@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Watch Ads",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View rewarded advertisements"
+            }
+          }
+        ],
+        "send": {
+          "callback": "ads:list"
+        }
+      }
+    ]
+  }
+]
